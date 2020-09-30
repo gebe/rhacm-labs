@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   labels:
     template: postgresql-persistent-template
+    app: etherpad-app
   name: postgresql
 spec:
   accessModes:
